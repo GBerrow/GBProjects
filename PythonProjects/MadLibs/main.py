@@ -2,7 +2,7 @@
 # by incorporating a list of options for each word type and randomly selecting one from the list.
 # users can enter a specific word or type "random",
 # to get a randomly selected word from the predefined options for each word type.
-# This adds an element of surprise and variety to your MadLibs story.
+# This adds an element of surprise and variety to your MadLibs story, Have fun!
 
 import random
 
