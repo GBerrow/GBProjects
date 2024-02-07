@@ -1,3 +1,8 @@
+""" I have improved the function that takes the bot's mood as an argument. Depending on the bot's mood, it selects an appropriate reaction from a predefined set of reactions. 
+If the bot's mood is happy, the user responds with a happy emoji. 
+If the bot's mood is angry, the user responds with a thumbs down emoji. Otherwise, it randomly selects a reaction from the list of reactions. """
+
+
 import logging
 import random
 from textblob import TextBlob
