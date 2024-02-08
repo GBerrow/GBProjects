@@ -1,22 +1,12 @@
 import time
+
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 
-class Browser:
-    def __init__(self, driver: str):
-        print('Starting up...')
-        self.service = Service(driver)
-        self.browser = webdriver.Chrome(service=self.service)
+driver = webdriver.Chrome() # Directly refer to this instead
+driver.get('https://google.com')
+time.sleep(5)
+print(driver.title)
 
-        def open_page(self, url: str):
-            print(f'Opening: {url}')
-            self.browser.get(url)
-
-
-if __name__ == '__main__':
-    browser = Browser('chromedriver')
-
-    driver = webdriver.Chrome()
-    driver.get('https://www.python.org')
-    time.sleep(5)
-    print
+""" Updated using drivers on Selenium. Normally would have to install a chrome driver to use chrome application.
+Now this included in Selenium so there's no need to refer to any external file.
+ """
