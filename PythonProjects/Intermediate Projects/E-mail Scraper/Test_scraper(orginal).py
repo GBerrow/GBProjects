@@ -1,5 +1,5 @@
-""" This original code I learned from Udemy could not work properly using the Chromedriver executable file,
-as the latest version of Chrome is 121.0. While the latest version of Chromedriver is only 114.0.
+""" This original code I learned from Udemy could not work properly using the Chromedriver executable file
+because the latest version of Chrome is 121.0, while the latest version of Chromedriver is only 114.0.
 If you look in my updated code you will see how I amended it, so it works correctly.
 """
 
