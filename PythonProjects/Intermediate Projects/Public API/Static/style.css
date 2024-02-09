@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    nav {
+        text-align: center;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
